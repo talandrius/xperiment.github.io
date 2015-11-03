@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>Bienvenue sur Xperiment &mdash; Xperiment &mdash; Share xperiment with you!</title>
+        <title>Syntax Highlighting &mdash; Sculpin Blog Skeleton &mdash; To Get You Started</title>
         <meta charset="utf-8">
         <meta name="theme-color" content="#ffffff">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -35,7 +35,7 @@
         <link rel="apple-touch-icon" sizes="2048x2048" href="/images/jackson/2048x2048.png">
 
         <link rel="stylesheet" href="/components/highlightjs/styles/github.css" />
-        <link rel="alternate" type="application/atom+xml" href="/atom.xml" title="Xperiment activity feed" />
+        <link rel="alternate" type="application/atom+xml" href="/atom.xml" title="Sculpin Blog Skeleton activity feed" />
         <style>
         /** quick fix because bootstrap <pre> has a background-color. */
         pre code { background-color: inherit; }
@@ -51,10 +51,10 @@
                             <span class="icon-bar"></span>
                             <span class="icon-bar"></span>
                         </a>
-                        <a class="brand" href="/">Xperiment</a>
+                        <a class="brand" href="/">Sculpin Blog Skeleton</a>
                         <div class="nav-collapse collapse">
                             <ul class="nav">
-                                <li><a href="/blog">Archives</a></li>
+                                <li><a href="/blog">Posts Archive</a></li>
                                 <li><a href="/blog/categories">Categories</a></li>
                                 <li><a href="/blog/tags">Tags</a></li>
                                 <li><a href="/about">About</a></li>
@@ -69,14 +69,44 @@
                 <div class="span8">
                         <article>
         <header>
-            <h2>Bienvenue sur Xperiment <small>post</small></h2>
+            <h2>Syntax Highlighting <small>post</small></h2>
         </header>
         <div>
-            <p>Développeur front end depuis quelques années, j'aime découvrir de nouveaux framework et de nouvelles façons de diffuser sur le web.
-C'est pour quoi , je crée ce blog, aujourd'hui , que vous pourrez suivre au fil de mes Test et Experimentations diverses.</p>
+            <p>You're all programmers, right? And you're writing code snippets on your Sculpin
+powered blog? Yeah. So you want some highlighting with your static site generation?
+Here you go!</p>
 
-<pre><code>Tous les commentaires seront les bienvenues :)
+<pre><code>namespace Foo;
+
+/**
+ * Awesome Contrived Example.
+ */
+class Bar implements BarInterface
+{
+    private $baz;
+
+    public function __construct(BazInterface $baz)
+    {
+        $this-&gt;baz = $baz;
+    }
+
+    public function doIt()
+    {
+        return $this-&gt;baz-&gt;do('it');
+    }
+}
 </code></pre>
+
+<p>You can also use <a href="http://michelf.ca/projects/php-markdown/extra/#fenced-code-blocks">fenced code blocks</a> with a syntax declaration at the top.
+You can use either <code>~</code> or <code>`</code> to mark them.</p>
+
+<pre><code class="php">if ($fencedCodeBlock-&gt;syntax !== 'PHP') {
+    throw new UnexpectedValueException("wat");
+}
+</code></pre>
+
+<p>Like this addition to the skeleton? You can thank for <a href="https://github.com/Pawka">@Pawka</a>
+for suggesting it. :)</p>
 
         </div>
                     <p class="categories">
@@ -95,12 +125,11 @@ C'est pour quoi , je crée ce blog, aujourd'hui , que vous pourrez suivre au fil
                 </div>
                 <div class="span4 sidebar">
                     <div class="well">
-                        <h4>Xperiment <small>Share xperiment with you!</small></h4>
+                        <h4>Sculpin Blog Skeleton <small>To Get You Started</small></h4>
                     </div>
                     <div class="well sidebar-nav">
                         <h4>Links</h4>
                         <ul class="nav">
-                        	<li><a href="http://talandria.fr">TALANDRIA</a></li>
                             <li><a href="http://sculpin.io">sculpin.io</a></li>
                             <li><a href="http://twitter.com/getsculpin">@getsculpin</a></li>
                         </ul>
@@ -109,7 +138,7 @@ C'est pour quoi , je crée ce blog, aujourd'hui , que vous pourrez suivre au fil
             </div>
         </div>
         <footer class="container">
-            &copy; 2015 Xperiment
+            &copy; 2015 Sculpin Blog Skeleton
         </footer>
 
         <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
