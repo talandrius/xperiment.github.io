@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
     <title><![CDATA[Xperiment]]></title>
-    <link href="/atom.xml" rel="self"/>
+    <link href="/blog/categories/News.xml" rel="self"/>
     <link href="/"/>
     <updated>2016-02-28T10:38:41+01:00</updated>
     <id>/</id>
@@ -15,18 +15,6 @@
 
 <p>utilisé dans vos maquettes (webdesign, sites internet, livres, affiches...) gratuitement. Ce texte est entièrement libre de droit.
 N'hésitez pas à faire un lien sur ce site en utilisant l'image ci-dessous ou en faisant un simple lien texte :</p>
-]]></content>
-        </entry>
-            <entry>
-            <title type="html"><![CDATA[Bienvenue sur Xperiment]]></title>
-            <link href="/blog/2015/11/01/welcome"/>
-            <updated>2015-11-01T00:00:00+01:00</updated>
-            <id>/blog/2015/11/01/welcome</id>
-            <content type="html"><![CDATA[<p>Développeur front end depuis quelques années, j'aime découvrir de nouveaux framework et de nouvelles façons de diffuser sur le web.
-C'est pour quoi , je crée ce blog, aujourd'hui , que vous pourrez suivre au fil de mes Test et Experimentations diverses.</p>
-
-<pre><code>Tous les commentaires seront les bienvenues :)
-</code></pre>
 ]]></content>
         </entry>
     </feed>
